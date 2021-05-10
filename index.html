@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Days Counter</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+
+    <div class="until" id="mycountdown">
+        <div class="until--component">
+            <div class="until--numeric until--numeric--days">00</div>
+            <div class="until--unit">Days</div>
+        </div>
+        <div class="until--component">
+            <div class="until--numeric until--numeric--hours">00</div>
+            <div class="until--unit">Hours</div>
+        </div>
+        <div class="until--component">
+            <div class="until--numeric until--numeric--minutes">00</div>
+            <div class="until--unit">Minutes</div>
+        </div>
+        <div class="until--component">
+            <div class="until--numeric until--numeric--seconds">00</div>
+            <div class="until--unit">Seconds</div>
+        </div>
+        <div class="until--event">Until 31 December 2021</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/duration.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
