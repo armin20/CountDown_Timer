@@ -1,4 +1,4 @@
-# CountDown_Timmer
+# CountDown_Timer
 
 
 This is the CoundDown Project using HTML, CSS, and JavaScript
