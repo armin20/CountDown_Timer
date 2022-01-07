@@ -18,4 +18,4 @@ function activatecount(elem, dateString){
     }, 250);
 }
 
-activatecount(document.getElementById("mycountdown"), "2021-12-31");
+activatecount(document.getElementById("mycountdown"), "2022-12-31");
